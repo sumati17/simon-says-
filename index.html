@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simon Says</title>
+</head>
+<body>
+    <h1>Simon Says Game</h1>
+    <h2>Press Start Game or any key to begin</h2>
+    <button id="start-btn" type="button">Start Game</button>
+
+    <div id="game-board">
+        <div class="line-one">
+            <button class="square red" data-color="red" type="button" aria-label="Red"></button>
+            <button class="square blue" data-color="blue" type="button" aria-label="Blue"></button>
+        </div>
+        <div class="line-two">
+            <button class="square green" data-color="green" type="button" aria-label="Green"></button>
+            <button class="square yellow" data-color="yellow" type="button" aria-label="Yellow"></button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

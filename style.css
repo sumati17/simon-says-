@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    border:10px solid black;
+    cursor: pointer;
+}
+
+.game-board{
+    display: flex;
+    margin-top: 50px;
+}
+
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+
+.game-flash{
+    background-color: white;
+}
+
+.user-flash{
+    background-color: lightgrey;
+}
